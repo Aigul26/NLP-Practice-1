@@ -9,7 +9,6 @@ from razdel import tokenize as razdel_tokenize
 import spacy
 from nltk.stem import SnowballStemmer
 import nltk
-import subprocess
 import os
 import warnings
 from datetime import datetime

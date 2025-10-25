@@ -8,7 +8,6 @@ import nltk
 
 # Загрузка ресурсов NLTK для русского языка
 def ensure_nltk_resources():
-    """Загрузка или проверка ресурсов NLTK."""
     try:
         nltk.data.find('tokenizers/punkt_tab')
         nltk.data.find('corpora/stopwords')
@@ -130,7 +129,6 @@ def process_corpus(input_file='corpus.jsonl', output_file='cleaned_corpus.jsonl'
     return processed_count, error_count, total_words
 
 def main():
-    """Пример использования модуля."""
     input_file = 'corpus.jsonl'
     output_file = 'cleaned_corpus.jsonl'
 

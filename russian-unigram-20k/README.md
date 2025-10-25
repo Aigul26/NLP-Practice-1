@@ -26,7 +26,7 @@ tags:
 ```python
 from transformers import AutoTokenizer
 
-tokenizer = AutoTokenizer.from_pretrained("SherifAnar/russian-unigram-20k")
+tokenizer = AutoTokenizer.from_pretrained("Aigul26/russian-unigram-20k")
 
 text = "Привет, как дела?"
 tokens = tokenizer.tokenize(text)
